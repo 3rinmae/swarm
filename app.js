@@ -126,6 +126,7 @@ function changePeopleLocation() {
 // const isBelowThreshold = (currentValue) => currentValue < 40;
 function endGame() {
   const allBats = people.picture == '🦇'
+  console.log('game over')
 }
 
 
