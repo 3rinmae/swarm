@@ -124,9 +124,10 @@ function changePeopleLocation() {
 }
 
 // const isBelowThreshold = (currentValue) => currentValue < 40;
+
+// check to see if all the people are bats, if they are give the user a message that the game is over
 function endGame() {
-  const allBats = people.picture == '🦇'
-  console.log('game over')
+  // .every W3Schools
 }
 
 
